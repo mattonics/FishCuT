@@ -1,7 +1,6 @@
 function FishCuTScriptv1_1(inPath,inFileName,FilterIndex)
 
 %Close the windows from 1 through 9, used by FishCut.
-javaaddpath 'C:\Program Files\MATLAB\R2017a\java\jar\mij.jar';
 
 for i = 1:9
     figure(i)
